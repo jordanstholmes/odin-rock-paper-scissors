@@ -53,7 +53,7 @@ function game() {
   let playerWins = 0;
   let computerWins = 0;
   for (let i = 0; i < 5; i++) {
-    const playerChoice = getPlayerChoice();
+    // const playerChoice = getPlayerChoice();
     const computerChoice = getComputerChoice();
     const result = getWinner(playerChoice, computerChoice);
     const resultStr = playRound(playerChoice, computerChoice);
